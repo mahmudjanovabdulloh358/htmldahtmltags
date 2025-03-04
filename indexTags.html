@@ -1,0 +1,909 @@
+<!-- html versiyasi -->
+<!DOCTYPE html>
+<!-- html boshlanishi -->
+<html lang="en">
+  <!-- saytning bosh efektlari -->
+  <head>
+    <!-- meta saytning malumotlari -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Saytning nomi -->
+    <title>HTML TAGS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 26px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .container {
+        max-width: 1536px;
+        width: 100%;
+        margin: auto;
+      }
+      .html-tags-div {
+        background-color: darkblue;
+        width: 100%;
+      }
+      .html-tags-div div {
+        margin-bottom: 1pc;
+        padding: 15px 25px;
+        background-color: darkcyan;
+      }
+    </style>
+  </head>
+  <!-- browser maydonida ko'rinadigan tana qism -->
+  <body>
+    <div class="container">
+      <div class="html-tags-div">
+        <div class="div">
+          <!-- Katta iqtibos -->
+          <p>blockquote - Katta iqtibos</p>
+        </div>
+
+        <div class="div">
+          <!-- Qisqa iqtibos -->
+          <p>q - Qisqa iqtibos</p>
+        </div>
+
+        <div class="div">
+          <!-- Qisqartma -->
+          <p>abbr- Qisqartma</p>
+        </div>
+
+        <div class="div">
+          <!-- Manba ko'rsatish uchun -->
+          <p>cite- Manba ko'rsatish uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Kod yozuvi -->
+          <p>code - Kod yozuvi</p>
+        </div>
+
+        <div class="div">
+          <!-- Oldindan formatlangan matn (qandan holatda bo'lsa shunday holda) -->
+          <p>
+            pre - Oldindan formatlangan matn (qanday holatda bo'lsa shunday
+            holda)
+          </p>
+        </div>
+
+        <div class="div">
+          <!-- Kontakt ma'lumotlari -->
+          <p>address - Kontakt ma'lumotlari</p>
+        </div>
+
+        <div class="div">
+          <!-- Sana va vaqt -->
+          <p>time - Sana va vaqt</p>
+        </div>
+
+        <div class="div">
+          <!-- Tartiblangan ro'yxat -->
+          <p>ol - Tartiblangan ro'yxat</p>
+        </div>
+
+        <div class="div">
+          <!-- Tartiblanmagan ro'yxat -->
+          <p>ul - Tartiblanmagan ro'yxat</p>
+        </div>
+
+        <div class="div">
+          <!-- Ro'yxat elementi -->
+          <p>li - Ro'yxat elementi</p>
+        </div>
+
+        <div class="div">
+          <!-- Ta'riflar ro'yxati -->
+          <p>dl - Ta'riflar ro'yxati</p>
+        </div>
+
+        <div class="div">
+          <!-- Ta'rif nomi -->
+          <p>dt - Ta'rif nomi</p>
+        </div>
+
+        <div class="div">
+          <!-- Ta'rif tavsifi -->
+          <p>dd - Ta'rif tavsifi</p>
+        </div>
+
+        <div class="div">
+          <!-- Giperhavola -->
+          <p>a - Giperhavola</p>
+        </div>
+
+        <div class="div">
+          <!-- Rasm qo'shish uchun -->
+          <p>img - Rasm qo'shish uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Rasm yoki jadval uchun konteyner -->
+          <p>figure - Rasm yoki jadval uchun konteyner</p>
+        </div>
+
+        <div class="div">
+          <!-- Rasm sarlavhasi -->
+          <p>figcaption - Rasm sarlavhasi</p>
+        </div>
+
+        <div class="div">
+          <!-- Jadval yaratish uchun -->
+          <p>table - Jadval yaratish uchun</p>
+        </div>
+
+        <div class="div">
+          <!--  Jadval sarlavhasi -->
+          <p>caption - Jadval sarlavhasi</p>
+        </div>
+
+        <div class="div">
+          <!-- Jadvalning yuqori qismi -->
+          <p>thead - Jadvalning yuqori qismi</p>
+        </div>
+
+        <div class="div">
+          <!-- Jadvalning asosiy qismi -->
+          <p>tbody - Jadvalning asosiy qismi</p>
+        </div>
+
+        <div class="div">
+          <!-- Jadvalning pastki qismi -->
+          <p>tfoot - Jadvalning pastki qismi</p>
+        </div>
+
+        <div class="div">
+          <!-- Jadval satri -->
+          <p>tr - Jadval satri</p>
+        </div>
+
+        <div class="div">
+          <!-- Jadval ustun sarlavhas -->
+          <p>th - Jadval ustun sarlavhasi</p>
+        </div>
+
+        <div class="div">
+          <!-- Jadval katakchasi -->
+          <p>td - Jadval katakchasi</p>
+        </div>
+
+        <div class="div">
+          <!-- Forma yaratish uchun -->
+          <p>form - Forma yaratish uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Ma'lumot kiritish maydoni -->
+          <p>input - Ma'lumot kiritish maydoni</p>
+        </div>
+
+        <div class="div">
+          <!-- Matn kiritish maydoni -->
+          <p>textarea - Matn kiritish maydoni</p>
+        </div>
+
+        <div class="div">
+          <!-- Tugma yaratish -->
+          <p>button - Tugma yaratish</p>
+        </div>
+
+        <div class="div">
+          <!-- Tanlov ro'yxati -->
+          <p>select - Tanlov ro'yxati</p>
+        </div>
+
+        <div class="div">
+          <!-- Tanlov varianti -->
+          <p>option - Tanlov varianti</p>
+        </div>
+
+        <div class="div">
+          <!-- Forma elementi uchun yorliq -->
+          <p>label - Forma elementi uchun yorliq</p>
+        </div>
+
+        <div class="div">
+          <!-- Forma elementlarini guruhlash -->
+          <p>fieldset - Forma elementlarini guruhlash</p>
+        </div>
+
+        <div class="div">
+          <!-- Fieldset sarlavhasi -->
+          <p>legend - Fieldset sarlavhasi</p>
+        </div>
+
+        <div class="div">
+          <!-- Jarayon indikator -->
+          <p>progress - Jarayon indikator</p>
+        </div>
+
+        <div class="div">
+          <!-- O'lchov indikator -->
+          <p>meter - O'lchov indikator</p>
+        </div>
+
+        <div class="div">
+          <!-- Ikkilamchi veb-sahifa joylashtirish -->
+          <p>iframe - Ikkilamchi veb-sahifa joylashtirish</p>
+        </div>
+
+        <div class="div">
+          <!-- Grafik chizish maydoni -->
+          <p>canvas - Grafik chizish maydoni</p>
+        </div>
+
+        <div class="div">
+          <!-- Vektor grafika yaratish -->
+          <p>svg - Vektor grafika yaratish</p>
+        </div>
+
+        <div class="div">
+          <!-- Audio fayllarni o'qish -->
+          <p>audio - Audio fayllarni o'qish</p>
+        </div>
+
+        <div class="div">
+          <!-- Video fayllarni ko'rsatish -->
+          <p>video - Video fayllarni ko'rsatish</p>
+        </div>
+
+        <div class="div">
+          <!-- Media fayllar uchun manba ko'rsatish -->
+          <p>source - Media fayllar uchun manba ko'rsatish</p>
+        </div>
+
+        <div class="div">
+          <!-- Subtitrlari uchun -->
+          <p>track - Subtitrlari uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Rasm xaritasi -->
+          <p>map - Rasm xaritasi</p>
+        </div>
+
+        <div class="div">
+          <!-- Rasm xaritasida faol maydon -->
+          <p>area - Rasm xaritasida faol maydon</p>
+        </div>
+
+        <div class="div">
+          <!-- Multimedia obyektlar uchun -->
+          <p>object - Multimedia obyektlar uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Tashqi kontentni joylashtirish -->
+          <p>embed - Tashqi kontentni joylashtirish</p>
+        </div>
+
+        <div class="div">
+          <!-- Obyekt parametrlari -->
+          <p>param - Obyekt parametrlari</p>
+        </div>
+
+        <div class="div">
+          <!-- JS yoqilmagan holat uchun kontent -->
+          <p>noscript - JS yoqilmagan holat uchun kontent</p>
+        </div>
+
+        <div class="div">
+          <!-- Dinamik kontent shabloni -->
+          <p>template - Dinamik kontent shabloni</p>
+        </div>
+
+        <div class="div">
+          <!-- Shadow DOM uchun joy -->
+          <p>slot - Shadow DOM uchun joy</p>
+        </div>
+
+        <div class="div">
+          <!-- Qo'shimcha kontentni yashirish/ko'rsatish -->
+          <p>details - Qo'shimcha kontentni yashirish/ko'rsatish</p>
+        </div>
+
+        <div class="div">
+          <!-- Details sarlavhasi -->
+          <p>summary - Details sarlavhasi</p>
+        </div>
+
+        <div class="div">
+          <!-- Muloqot oynasi -->
+          <p>dialog - Muloqot oynasi</p>
+        </div>
+
+        <div class="div">
+          <!-- Kontekst menyulari uchun -->
+          <p>menu - Kontekst menyulari uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Menyu elementi -->
+          <p>menuitem - Menyu elementi</p>
+        </div>
+
+        <div class="div">
+          <!-- Blok konteyner -->
+          <p>div - Blok konteyner</p>
+        </div>
+
+        <div class="div">
+          <!-- Inline konteyner -->
+          <p>span - Inline konteyner</p>
+        </div>
+
+        <div class="div">
+          <!-- Ma'lumot atributi -->
+          <p>data - Ma'lumot atributi</p>
+        </div>
+
+        <div class="div">
+          <!-- Klaviatura tugmalari uchun -->
+          <p>kbd - Klaviatura tugmalari uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Dastur natijasini ko'rsatish -->
+          <p>samp - Dastur natijasini ko'rsatish</p>
+        </div>
+
+        <div class="div">
+          <!-- O'zgaruvchi belgilash -->
+          <p>var - O'zgaruvchi belgilash</p>
+        </div>
+
+        <div class="div">
+          <!-- Matn yo'nalishini boshqarish -->
+          <p>bdi - Matn yo'nalishini boshqarish</p>
+        </div>
+
+        <div class="div">
+          <!-- Matn yo'nalishini o'zgartirish -->
+          <p>bdo - Matn yo'nalishini o'zgartirish</p>
+        </div>
+
+        <div class="div">
+          <!-- Uzoq so'zlarni bo'lish uchun -->
+          <p>wbr - Uzoq so'zlarni bo'lish uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Ajratilgan matn (yorqin rangda) -->
+          <p>mark - Ajratilgan matn (yorqin rangda)</p>
+        </div>
+
+        <div class="div">
+          <!-- Forma natijasini ko'rsatish -->
+          <p>output - Forma natijasini ko'rsatish</p>
+        </div>
+
+        <div class="div">
+          <!-- Yuqori indeksli matn -->
+          <p>sup - Yuqori indeksli matn</p>
+        </div>
+
+        <div class="div">
+          <!-- Past indeksli matn -->
+          <p>sub - Past indeksli matn</p>
+        </div>
+
+        <div class="div">
+          <!-- Yangi qo'shilgan matn -->
+          <p>ins - Yangi qo'shilgan matn</p>
+        </div>
+
+        <div class="div">
+          <!-- O'chirilgan matn (chiziq bilan o'ralgan) -->
+          <p>del - O'chirilgan matn (chiziq bilan o'ralgan)</p>
+        </div>
+
+        <div class="div">
+          <!-- Qo'shimcha tafsilotlar uchun sarlavha -->
+          <p>summary - Qo'shimcha tafsilotlar uchun sarlavha</p>
+        </div>
+
+        <div class="div">
+          <!-- Matnni ajratish (yorqin rangda) -->
+          <p>mark - Matnni ajratish (yorqin rangda)</p>
+        </div>
+
+        <div class="div">
+          <!-- O'lchov indikator -->
+          <p>meter - O'lchov indikator</p>
+        </div>
+
+        <div class="div">
+          <!-- Jarayon indikator -->
+          <p>progress - Jarayon indikator</p>
+        </div>
+
+        <div class="div">
+          <!-- Hisoblangan natijani ko'rsatish -->
+          <p>output- Hisoblangan natijani ko'rsatish</p>
+        </div>
+
+        <div class="div">
+          <!-- Sana va vaqt belgilash -->
+          <p>time - Sana va vaqt belgilash</p>
+        </div>
+
+        <div class="div">
+          <!-- Ma'lumot atributlari uchun -->
+          <p>data - Ma'lumot atributlari uchun</p>
+        </div>
+
+        <div class="div">
+          <!-- Ruby matnini belgilash (til o'qitishda ishlatiladi) -->
+          <p>ruby - Ruby matnini belgilash (til o'qitishda ishlatiladi)</p>
+        </div>
+
+        <div class="div">
+          <!-- Ruby matni uchun izoh -->
+          <p>rt - Ruby matni uchun izoh</p>
+        </div>
+
+        <div class="div">
+          <!-- Ruby matnini qo'llab-quvvatlamaydigan brauzerlar uchun -->
+          <p>rp - Ruby matnini qo'llab-quvvatlamaydigan brauzerlar uchun</p>
+        </div>
+
+        <!-- Matn yo'nalishini boshqarish -->
+        <div class="div">
+          <p>bdi - Matn yo'nalishini boshqarish</p>
+        </div>
+
+        <div class="div">
+          <!-- Matn yo'nalishini majburan o'zgartirish -->
+          <p>bdo - Matn yo'nalishini majburan o'zgartirish</p>
+        </div>
+
+        <!-- Uzoq so'zlarni bo'lish uchun (line break point) -->
+        <div class="div">
+          <p>wbr - Uzoq so'zlarni bo'lish uchun (line break point)</p>
+        </div>
+
+        <div class="div">
+          <!-- O'chirilgan matn -->
+          <p>s - O'chirilgan matn</p>
+        </div>
+
+        <!-- Matematika yoki dasturlashdagi o'zgaruvchilar uchun -->
+        <div class="div">
+          <p>var - Matematika yoki dasturlashdagi o'zgaruvchilar uchun</p>
+        </div>
+
+        <!-- Klaviatura qismlarini belgilash -->
+        <div class="div">
+          <p>kbd - Klaviatura qismlarini belgilash</p>
+        </div>
+
+        <!-- Dastur natijasini ko'rsatish -->
+        <div class="div">
+          <p>samp - Dastur natijasini ko'rsatish</p>
+        </div>
+
+        <!-- Manba ko'rsatish -->
+        <div class="div">
+          <p>cite - Manba ko'rsatish</p>
+        </div>
+
+        <!-- Qisqartma uchun izoh berish -->
+        <div class="div">
+          <p>abbr - Qisqartma uchun izoh berish</p>
+        </div>
+
+        <!-- JavaScript yoqilmagan brauzerlar uchun kontent -->
+        <div class="div">
+          <p>noscript - JavaScript yoqilmagan brauzerlar uchun kontent</p>
+        </div>
+
+        <!-- Grafik chizish uchun -->
+        <div class="div">
+          <p>canvas - Grafik chizish uchun</p>
+        </div>
+
+        <!-- Rasm xaritasini yaratish uchun -->
+        <div class="div">
+          <p>map - Rasm xaritasini yaratish uchun</p>
+        </div>
+
+        <!-- Xaritada faol maydon belgilash -->
+        <div class="div">
+          <p>area - Xaritada faol maydon belgilash</p>
+        </div>
+
+        <!-- Tashqi resurslarni kiritish uchun -->
+        <div class="div">
+          <p>object - Tashqi resurslarni kiritish uchun</p>
+        </div>
+
+        <!-- Tashqi kontentni o'rnatish -->
+        <div class="div">
+          <p>embed - Tashqi kontentni o'rnatish</p>
+        </div>
+
+        <!-- Obyekt parametrlari -->
+        <div class="div">
+          <p>param - Obyekt parametrlari</p>
+        </div>
+
+        <!-- Moslashuvchan rasm ko'rsatish -->
+        <div class="div">
+          <p>picture - Moslashuvchan rasm ko'rsatish</p>
+        </div>
+
+        <!-- Media fayllar uchun manba ko'rsatish -->
+        <div class="div">
+          <p>source - Media fayllar uchun manba ko'rsatish</p>
+        </div>
+
+        <!-- Subtitrlari yoki boshqa treklar uchun -->
+        <div class="div">
+          <p>track - Subtitrlari yoki boshqa treklar uchun</p>
+        </div>
+
+        <!-- Audio fayllarni ko'rsatish -->
+        <div class="div">
+          <p>audio - Audio fayllarni ko'rsatish</p>
+        </div>
+
+        <!-- Video fayllarni ko'rsatish -->
+        <div class="div">
+          <p>video - Video fayllarni ko'rsatish</p>
+        </div>
+
+        <!-- Rasm yoki diagramma uchun konteyner -->
+        <div class="div">
+          <p>figure - Rasm yoki diagramma uchun konteyner</p>
+        </div>
+
+        <!-- Rasm yoki jadval sarlavhasi -->
+        <div class="div">
+          <p>figcaption - Rasm yoki jadval sarlavhasi</p>
+        </div>
+
+        <!-- Yashirin/ko'rsatiladigan kontent uchun -->
+        <div class="div">
+          <p>details - Yashirin/ko'rsatiladigan kontent uchun</p>
+        </div>
+
+        <!-- Muloqot oynasi (modal) -->
+        <div class="div">
+          <p>dialog - Muloqot oynasi (modal)</p>
+        </div>
+
+        <!-- Kontekst menyulari uchun -->
+        <div class="div">
+          <p>menu - Kontekst menyulari uchun</p>
+        </div>
+
+        <!-- Menyu elementi (eskirgan, lekin ba'zi brauzerlarda ishlaydi) -->
+        <div class="div">
+          <p>
+            menuitem - Menyu elementi (eskirgan, lekin ba'zi brauzerlarda
+            ishlaydi)
+          </p>
+        </div>
+
+        <!-- Dinamik kontent shabloni -->
+        <div class="div">
+          <p>template - Dinamik kontent shabloni</p>
+        </div>
+
+        <!-- Shadow DOM uchun bo'sh joy -->
+        <div class="div">
+          <p>slot - Shadow DOM uchun bo'sh joy</p>
+        </div>
+
+        <!-- O'chirilgan matn -->
+        <div class="div">
+          <p>del - O'chirilgan matn</p>
+        </div>
+
+        <!-- Qo'shimcha matnlar uchun -->
+        <div class="div">
+          <p>ins - Qo'shimcha matnlar uchun</p>
+        </div>
+
+        <!-- Gorizontal chiziq -->
+        <div class="div">
+          <p>hr - Gorizontal chiziq</p>
+        </div>
+
+        <!-- Yangi qatordan boshlash -->
+        <div class="div">
+          <p>br - Yangi qatordan boshlash</p>
+        </div>
+
+        <!-- Inline konteyner -->
+        <div class="div">
+          <p>span - Inline konteyner</p>
+        </div>
+
+        <!-- Blok konteyner -->
+        <div class="div">
+          <p>div - Blok konteyner</p>
+        </div>
+
+        <!-- Bir nechta sarlavhalarni guruhlash -->
+        <div class="div">
+          <p>hgroup - Bir nechta sarlavhalarni guruhlash</p>
+        </div>
+
+        <!-- Asosiy kontent uchun asosiy konteyner -->
+        <div class="div">
+          <p>main - Asosiy kontent uchun asosiy konteyner</p>
+        </div>
+
+        <!-- Navigatsiya menyusi -->
+        <div class="div">
+          <p>nav - Navigatsiya menyusi</p>
+        </div>
+
+        <!-- Tematik bo'lim -->
+        <div class="div">
+          <p>section - Tematik bo'lim</p>
+        </div>
+
+        <!-- Mustaqil kontent bo'lagi -->
+        <div class="div">
+          <p>article - Mustaqil kontent bo'lagi</p>
+        </div>
+
+        <!-- Qo'shimcha kontent uchun -->
+        <div class="div">
+          <p>aside - Qo'shimcha kontent uchun</p>
+        </div>
+
+        <!-- Sahifa yoki bo'limning pastki qismi -->
+        <div class="div">
+          <p>footer - Sahifa yoki bo'limning pastki qismi</p>
+        </div>
+
+        <!-- Sahifa yoki bo'limning yuqori qismi -->
+        <div class="div">
+          <p>header - Sahifa yoki bo'limning yuqori qismi</p>
+        </div>
+
+        <!-- Forma yaratish uchun -->
+        <div class="div">
+          <p>form - Forma yaratish uchun</p>
+        </div>
+
+        <!-- Ma'lumot kiritish maydoni -->
+        <div class="div">
+          <p>input - Ma'lumot kiritish maydoni</p>
+        </div>
+
+        <!-- Tugma yaratish -->
+        <div class="div">
+          <p>button - Tugma yaratish</p>
+        </div>
+
+        <!-- Matn kiritish uchun maydon -->
+        <div class="div">
+          <p>textarea - Matn kiritish uchun maydon</p>
+        </div>
+
+        <!-- Tanlov (dropdown) ro'yxati -->
+        <div class="div">
+          <p>select - Tanlov (dropdown) ro'yxati</p>
+        </div>
+
+        <!-- Select ro'yxatidagi variant -->
+        <div class="div">
+          <p>option - Select ro'yxatidagi variant</p>
+        </div>
+
+        <!-- Select ro'yxatida guruhlash -->
+        <div class="div">
+          <p>optgroup - Select ro'yxatida guruhlash</p>
+        </div>
+
+        <!-- Forma elementi uchun yorliq -->
+        <div class="div">
+          <p>label - Forma elementi uchun yorliq</p>
+        </div>
+
+        <!-- Forma elementlarini guruhlash -->
+        <div class="div">
+          <p>fieldset - Forma elementlarini guruhlash</p>
+        </div>
+
+        <!-- Fieldset sarlavhasi -->
+        <div class="div">
+          <p>legend - Fieldset sarlavhasi</p>
+        </div>
+
+        <!-- Kiritish maydoni uchun tanlov ro'yxati -->
+        <div class="div">
+          <p>datalist - Kiritish maydoni uchun tanlov ro'yxati</p>
+        </div>
+
+        <!-- Kalit yaratish (eskirgan) -->
+        <div class="div">
+          <p>keygen - Kalit yaratish (eskirgan)</p>
+        </div>
+
+        <!-- Hisoblangan natijani ko'rsatish -->
+        <div class="div">
+          <p>output - Hisoblangan natijani ko'rsatish</p>
+        </div>
+
+        <!-- Yuqori indeksli matn -->
+        <div class="div">
+          <p>sup - Yuqori indeksli matn</p>
+        </div>
+
+        <!-- Pastki indeksli matn -->
+        <div class="div">
+          <p>sub - Pastki indeksli matn</p>
+        </div>
+
+        <!-- Qalin matn -->
+        <div class="div">
+          <p>b - Qalin matn</p>
+        </div>
+
+        <!-- Kursiv matn -->
+        <div class="div">
+          <p>i - Kursiv matn</p>
+        </div>
+
+        <!-- Tagiga chizilgan matn -->
+        <div class="div">
+          <p>u - Tagiga chizilgan matn</p>
+        </div>
+
+        <!-- O'chirilgan matn -->
+        <div class="div">
+          <p>s - O'chirilgan matn</p>
+        </div>
+
+        <!-- Muhim matn -->
+        <div class="div">
+          <p>strong - Muhim matn</p>
+        </div>
+
+        <!-- Urg'u berilgan matn -->
+        <div class="div">
+          <p>em - Urg'u berilgan matn</p>
+        </div>
+
+        <!-- Kod bo'lagi -->
+        <div class="div">
+          <p>code - Kod bo'lagi</p>
+        </div>
+
+        <!-- Dastur natijasini ko'rsatish -->
+        <div class="div">
+          <p>samp - Dastur natijasini ko'rsatish</p>
+        </div>
+
+        <!-- Klaviatura qismlarini belgilash -->
+        <div class="div">
+          <p>kbd - Klaviatura qismlarini belgilash</p>
+        </div>
+
+        <!-- O'zgaruvchilarni belgilash -->
+        <div class="div">
+          <p>var - O'zgaruvchilarni belgilash</p>
+        </div>
+
+        <!-- Oldindan formatlangan matn -->
+        <div class="div">
+          <p>pre - Oldindan formatlangan matn</p>
+        </div>
+
+        <!-- Iqtiboslar uchun -->
+        <div class="div">
+          <p>blockquote - Iqtiboslar uchun</p>
+        </div>
+
+        <!-- Manba ko'rsatish uchun -->
+        <div class="div">
+          <p>cite - Manba ko'rsatish uchun</p>
+        </div>
+
+        <!-- Qisqartma -->
+        <div class="div">
+          <p>abbr - Qisqartma</p>
+        </div>
+
+        <!-- Yo'nalish boshqaruvi -->
+        <div class="div">
+          <p>bdi - Yo'nalish boshqaruvi</p>
+        </div>
+
+        <!-- Yo'nalishni o'zgartirish -->
+        <div class="div">
+          <p>bdo - Yo'nalishni o'zgartirish</p>
+        </div>
+
+        <!-- So'zlarni bo'lish uchun -->
+        <div class="div">
+          <p>wbr - So'zlarni bo'lish uchun</p>
+        </div>
+
+        <!-- Yangi qo'shilgan matn -->
+        <div class="div">
+          <p>ins - Yangi qo'shilgan matn</p>
+        </div>
+
+        <!-- O'chirilgan matn -->
+        <div class="div">
+          <p>del - O'chirilgan matn</p>
+        </div>
+
+        <!-- Ajratilgan matn -->
+        <div class="div">
+          <p>mark - Ajratilgan matn</p>
+        </div>
+
+        <!-- Gorizontal chiziq -->
+        <div class="div">
+          <p>hr - Gorizontal chiziq</p>
+        </div>
+
+        <!-- Yangi qatordan boshlash -->
+        <div class="div">
+          <p>br - Yangi qatordan boshlash</p>
+        </div>
+
+        <!-- Giperhavola -->
+        <div class="div">
+          <p>a - Giperhavola</p>
+        </div>
+
+        <!-- Rasm qo'shish -->
+        <div class="div">
+          <p>img - Rasm qo'shish</p>
+        </div>
+
+        <!-- Rasm va tavsif uchun -->
+        <div class="div">
+          <p>figure - Rasm va tavsif uchun</p>
+        </div>
+
+        <!-- Rasm sarlavhasi -->
+        <div class="div">
+          <p>figcaption - Rasm sarlavhasi</p>
+        </div>
+
+        <!-- Audio fayllarni ko'rsatish -->
+        <div class="div">
+          <p>audio - Audio fayllarni ko'rsatish</p>
+        </div>
+
+        <!-- Video fayllarni ko'rsatish -->
+        <div class="div">
+          <p>video - Video fayllarni ko'rsatish</p>
+        </div>
+
+        <!-- Media manba ko'rsatish -->
+        <div class="div">
+          <p>source - Media manba ko'rsatish</p>
+        </div>
+
+        <!-- Subtitrlari uchun -->
+        <div class="div">
+          <p>track - Subtitrlari uchun</p>
+        </div>
+
+        <!-- Grafik chizish -->
+        <div class="div">
+          <p>canvas - Grafik chizish</p>
+        </div>
+
+        <!-- Vektor grafika -->
+        <div class="div">
+          <p>svg - Vektor grafika</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
